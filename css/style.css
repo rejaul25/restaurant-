@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+
+
+}
+
+/* hero section */
+.hero_section {
+    width: 100%;
+    height: 657px;
+    background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/img/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero_container,
+.container {
+    max-width: 980px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.hero_container span {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 38px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.hero_section h1 {
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    margin: 12px 0px;
+
+}
+
+.hero_section p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    margin: 15px 0px;
+    opacity: 0.7;
+
+
+}
+
+.hero_container .action_button {
+    margin: 25px 0px;
+}
+
+.hero_container .action_button a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    padding: 14px;
+    border-radius: 5px;
+    background: rgb(82, 195, 3);
+    position: relative;
+    top: 15%;
+
+}
+
+.hero_container .action_button a:hover {
+    background: rgb(96, 226, 3);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+/* hero section */
+
+/* faviorite product section */
+.container {
+    padding: 65px 0px;
+
+}
+
+.container .fav_brands_head span {
+    color: rgb(16, 16, 16);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.container .fav_brands_head h2 {
+    color: rgb(16, 16, 16);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    padding: 5px 0px;
+
+}
+
+/* pizza card */
+.food_card {
+    max-width: 350px;
+    height: auto;
+    padding: 8px 10px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.fab_food_cards_container {
+    display: flex;
+    margin-top: 25px;
+
+}
+
+.food_card .food_img img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 22px;
+}
+
+.food_card:hover .food_img img {
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+}
+
+.food_card .food_det a {
+    text-decoration: none;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    padding: 13px 18px;
+    border-radius: 5px;
+    opacity: 0.8;
+
+}
+
+.food_card .food_det a:hover {
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    color: #fff;
+    background: rgb(50, 116, 3);
+}
+
+.food_card .food_det h3 {
+    color: rgb(16, 16, 16);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 47px;
+    margin: 18px 0px 8px 0px;
+}
+
+.food_card .food_det p {
+    color: rgb(16, 16, 16);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.all_sells_button {
+    margin: 56px 0px 65px 0px;
+}
+
+.all_sells_button a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    padding: 13px 18px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgb(82, 195, 3);
+
+}
+
+.all_sells_button a:hover {
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    background: rgb(50, 116, 3);
+}
+
+/* faviorite product section */
+
+/* about us */
+.about_us {
+    display: flex;
+    padding-bottom: 65px;
+}
+
+.about_left {
+    width: 50%;
+}
+
+.about_left a img {
+    width: 100%;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.about_us:hover .about_left a img {
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+}
+
+.about_right {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+}
+
+.about_right .about_right_det h2,
+.footer_container .footer_det h2 {
+    color: rgb(16, 16, 16);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44px;
+
+
+}
+
+.about_right .about_right_det p,
+.footer_container .footer_det p {
+    color: rgb(16, 16, 16);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    opacity: 0.6;
+    padding: 20px 0px 42px 0px;
+}
+
+.about_right .about_right_det span,
+.footer_container .footer_det span {
+    color: rgb(16, 16, 16);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 38px;
+    opacity: 0.7;
+
+
+}
+
+.about_right .about_right_det ul,
+.footer_container .footer_det ul {
+    margin-top: 22px;
+}
+
+.about_right .about_right_det ul li,
+.footer_container .footer_det ul li {
+    list-style: none;
+    display: inline;
+    margin: 2px;
+}
+
+.about_right .about_right_det ul li a,
+.footer_container .footer_det ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: green;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+.about_right .about_right_det ul li a:hover,
+.footer_container .footer_det ul li a:hover {
+    color: darkgreen;
+
+}
+
+/* about use */
+/* more food show area */
+.food_card2 {
+    border: 1px solid;
+    border-style: dashed;
+    padding: 0px 0px 6px 0px !important;
+    margin: 0px 10px !important;
+
+}
+
+.food_card2:hover .food_img a img {
+    transform: scale(1.01) !important;
+
+}
+
+/* more food show area */
+
+/* footer */
+footer {
+    width: 100%;
+    height: 490px;
+    background: url(../assets/img/social-bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+}
+
+.footer_container {
+    width: 70%;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 8px 20px;
+    /* margin: 0 auto; */
+    /* padding-top: 115px; 
+    */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    z-index: 2;
+    
+}
+
+ .overlap{
+    width: 100%;
+    height: 490px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   opacity: 0.6;
+    background: #f2f2f2;
+ }
+ 
+/* footer */
